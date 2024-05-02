@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    
+    align-items: center;
+    
+}
+
+/* cabeçalho */
+#drawer {
+
+    
+    .logo {
+        margin: 0px;
+        display: flex;
+        gap: 10px;
+    }
+
+
+    #btn-mobile {
+        
+        display: none;
+        
+    }
+    > header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 60px;
+        
+
+        > nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+
+            > li a {
+                display: flex;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 22px;
+                color: /*#B695C0*/ #78378b;
+            }
+        }
+    }
+}
+
+/*Conteúdo fotos*/
+
+.photos {
+    background-color: /*#E2BE99*/ #d4b68ade;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.sliders {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.sliders input {
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .05s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #B695C0;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
+}
+
+/*Conteúdo proposta*/
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px;
+    background-color: #eedfc896;
+    
+}
+
+.proposta-texto {
+    width: 600px;
+    text-align: justify;
+}
+
+.proposta-texto h1{
+    text-align: center;
+    font-size: 30px;
+    color: #78378b;
+    font-weight: bold;
+}
+
+.proposta-texto p{
+    font-size: 20px;
+    color: #78378b;
+    
+}
+
+
+#btn-1 {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn-text{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #78378b;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+
+.img img {
+    width: 600px;
+    border-radius: 15px;
+}
+
+/*Apresentação*/
+
+.apresentation {
+    background-color: #B695C0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 200px;
+    
+}
+
+.apresentation h1{
+    padding: 30px;
+    text-align: center;
+}
+
+.photo-ligia img{
+    width: 450px;
+    margin-top: 55px;
+    border-radius: 40px;
+}
+
+.text-apresentation {
+    padding: 20px;
+    text-align: justify;
+    width: 700px;
+    
+}
+
+.text-apresentation h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.text-apresentation p{
+    color: #fff;
+    font-size: 20px;
+}
+
+/*Como funciona*/
+
+.funciona h1{
+    padding: 40px;
+    text-align: center;
+    color: #78378b;
+    font-weight: bold;
+}
+
+.passos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+    background-color: #eedfc896;
+}
+
+
+
+.processo{
+    width: 350px;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid #fff;
+    background-color: #faf4f4c4;
+}
+
+.processo i{
+    font-size: 40px;
+    color: #78378b ;
+}
+
+.processo h3 {
+    font-size: 25px;
+    color: #78378b;
+}
+
+.processo p{
+    font-size: 18px;
+    color: #78378b;
+}
+
+.btn-3{
+    text-align: center;
+    padding: 40px;
+    background-color: #eedfc896;
+}
+
+.sm {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #78378b;
+    color: #fff;
+}
+
+/*Feedbacks*/
+.feedbacks{
+    background-color: #eedfc896;
+    height: 650px;
+}
+
+
+.feedbacks h1 {
+    padding: 40px;
+    text-align: center;
+    color: #78378b;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.depoimentos {
+    width: 100%;
+    margin-left: 450px;
+    margin-top: 30px;
+    height: 450px;
+    padding: 40px 20px;
+    max-width: 900px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+
+.depoimentos .mySwiper {
+    
+}
+
+.depoimentos .slide-1{
+    padding: 40px 60px;
+    cursor: grab;
+    
+}
+
+.depoimentos .slide-1:active {
+    cursor: grabbing;
+}
+
+.depoimentos i {
+    font-size: 90px;
+    color: #ccc;
+    margin-left: 50px;
+    
+}
+
+.depoimentos p.depoi-txt{
+    font-weight: 300;
+    margin-bottom: 50px;
+    
+    margin-left: 50px;
+    width: 600px;
+}
+
+.slide-1 {
+    
+    display: flex;
+    /*flex-direction: column;*/
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-1 .person img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+.slide-1 .person{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slide-1 .person p.nome-person{
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Foto insta*/
+
+
+
+.title-insta h1{
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #B695C0;
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.click {
+    padding: 20px;
+    text-align: center;
+    color: #78378b;
+    font-weight: bold;
+}
+
+
+/*Rodapé*/
+
+.rodape{
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: #78378b;
+    color: #fff;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    /* cabeçalho */
+    #drawer{
+    
+    margin-bottom: -20px;
+    margin-top: -20px;
+    padding: 0px;
+    
+    .logo .img-logo{
+        width: 110px;
+        margin-left: -40px;
+        
+    }
+    > header #menu {
+        display: none;
+        position: absolute;
+        width: 60%;
+        padding: 20px;
+        height: 80vh;
+        top: 90px;
+        right: 0px;
+        background: #fff;
+        
+        z-index: 1000;
+    }
+
+    > header #menu li {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #btn-mobile{
+        display: block;
+        position: absolute;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        background-color: /*#eedcc6*/ #fff;
+        border: none; 
+    }
+    #btn-mobile img {
+        width: 30px;
+    
+    }
+
+
+    #nav.active #menu {
+        display: block;
+        flex-direction: column;
+        
+    }
+}
+
+    
+    
+    /*Conteudo fotos*/
+    .photos {
+        background-color: /*#E2BE99*/ #d4b68ade;
+    }
+    .slider {
+        margin: 0 auto;
+        width: 100vw;
+        height: 300px;
+        overflow: hidden;
+        
+    }
+    .sliders {
+        width: 400%;
+        height: 300px;
+        display: flex;
+        
+    }
+
+    .slide{
+        display: inline-flex;
+        
+    }
+
+    .manual-navigation {
+        
+        display: none;
+        
+    }
+
+    .navigation-auto{
+        
+        display: none;
+        
+    }
+    
+    /*Nossa Proposta*/
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 90px;
+        align-items: center;
+        
+        
+    }
+    
+    .proposta-texto {
+        width: 300px;
+        
+    }
+    
+    .proposta-texto h1{
+        text-align: center;
+        font-size: 30px;
+        color: #78378b;
+        font-weight: bold;
+    }
+    
+    .proposta-texto p{
+        font-size: 18px;
+        color: #78378b;
+        
+    }
+    
+    
+    #btn-1 {
+        margin: 20px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    #btn-text{
+        padding: 20px;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 15px;
+        
+    }
+    
+    
+    .img img {
+        width: 350px;
+        border-radius: 15px;
+        margin-bottom: -15px;
+    }
+    
+    
+    /*Me apresentando*/
+    .apresentation {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        
+    }
+    
+    .apresentation h1{
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .photo-ligia img{
+        width: 290px;
+        margin-top: 25px;
+        
+        
+    }
+    
+    .text-apresentation {
+        padding: 20px;
+        width: 350px;
+        
+    }
+    
+    
+    .text-apresentation p{
+        font-size: 18px;
+    }
+    
+    /* Como funciona*/
+    
+    .passos {
+        padding: 30px;
+        gap: 40px;
+    }
+    
+    
+    
+    .processo{
+        width: 135px;
+        height: 200px;
+    }
+    
+    .processo i{
+        font-size: 18px;
+    }
+    
+    .processo h3 {
+        font-size: 13px;
+    }
+    
+    .processo p{
+        font-size: 10px;
+        text-align: left;
+    }
+    
+
+
+
+    /*feedbacks*/
+    .depoimentos {
+        width: 100%;
+        margin-left: 0px;
+        height: 450px;
+        padding: 30px 20px;
+        max-width: 900px;
+        position: relative;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+    .depoimentos p.depoi-txt{
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 80px;
+        margin-left: -20px;
+        width: 250px;
+        height: 100px;
+    }
+    .slide-1 .person img{
+        width: 80px;
+        height: 80px;
+        margin-left: -30px;
+    }
+
+    .depoimentos i {
+        font-size: 50px;
+        color: #ccc;
+        margin-left: -30px;
+        margin-top: -50px;
+    }
+    .nav-btn{
+        display: none;
+    }
+
+    /*Foto insta*/
+
+
+
+    .title-insta h1{
+        padding: 25px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        background-color: #B695C0;
+        
+    }
+
+    
+
+    .insta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .insta img {
+        width: 100vw;
+        
+    }
+
+    .click {
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        color: #78378b;
+        font-weight: bold;
+    }
+
+
+
+    /*Rodapé*/
+
+    .rodape{
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+
+
+
+
