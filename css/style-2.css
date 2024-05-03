@@ -5,9 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-    /*background-color: #d4b68ade;*/
-}
+
 
 /* cabeçalho */
 #drawer {
@@ -94,13 +92,13 @@ main{
 
 }
 
-.container, .container-1 {
+section .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /*background-image: url("/img-brinquedos/foto-14.jpeg");
-    background-size: cover;*/
+    background-image: url("/img-brinquedos/foto-14.jpeg");
+    background-size: cover;
     
     
 }
@@ -121,8 +119,8 @@ main{
     align-items: center;
     justify-content: center;
     
-    /*background-image: url("/img-brinquedos/cozinha800.jpeg");
-    background-size: cover;*/
+    background-image: url("/img-brinquedos/cozinha800.jpeg");
+    background-size: cover;
         
     }
 
@@ -133,8 +131,6 @@ main{
     text-align: center;
     padding: 40px;
     background-color: #e6ded2e1;
-    background-image: url("/img-brinquedos/foto-14.jpeg");
-    background-size: cover;
     color: #78378b;
     /*background-image: url("/img-brinquedos/foto-14.jpeg");
     background-size: cover;*/
@@ -238,7 +234,7 @@ main{
 }
     
 
-    .container-1{
+    /*.container-1{
     
     background-image: url("/img-brinquedos/papo400.jpeg");
     background-size: cover;
@@ -255,6 +251,16 @@ main{
         background-image: url("/img-brinquedos/lougec800.jpeg");
         background-size: cover;
         
+        }*/
+    section .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-image: url("/img-brinquedos/foto-14.jpeg");
+        background-size: cover;
+            
+            
         }
     .galeria-items {
         width: 125px;
