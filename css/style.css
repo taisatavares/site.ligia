@@ -496,10 +496,10 @@ body{
         background-color: /*#E2BE99*/ #d4b68ade;
     }
     .slider {
-        margin: 0 auto;
-        width: 500px;
-        height: auto;
-        overflow: hidden;
+        
+        /*width: auto;
+        height: auto;*/
+        
         
     }
     .sliders {
@@ -521,12 +521,10 @@ body{
     .slide{
         display: inline-flex;
         
-        
-        
     }
     .slide img {
         max-width: 100%;
-        height: auto;
+        
     }
 
 
