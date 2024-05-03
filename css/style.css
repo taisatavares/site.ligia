@@ -497,8 +497,8 @@ body{
     }
     .slider {
         margin: 0 auto;
-        width: 100vw;
-        height: 400px;
+        width: 500px;
+        height: auto;
         overflow: hidden;
         
     }
@@ -520,10 +520,15 @@ body{
     
     .slide{
         display: inline-flex;
-        width: 25%;
+        
         
         
     }
+    .slide img {
+        max-width: 100%;
+        height: auto;
+    }
+
 
     
 
@@ -637,8 +642,8 @@ body{
     
     
     .processo{
-        width: 135px;
-        height: 200px;
+        width: 130px;
+        height: 210px;
     }
     
     .processo i{
