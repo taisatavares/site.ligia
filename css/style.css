@@ -497,7 +497,7 @@ body{
     }
     .slider {
         margin: 0 auto;
-        width: 100vw;
+        width: 450px;
         height: 300px;
         overflow: hidden;
         
@@ -511,7 +511,7 @@ body{
 
     .slide{
         display: inline-flex;
-        width: 100vw;
+        width: 450px;
     }
 
     .manual-navigation {
@@ -544,13 +544,13 @@ body{
     
     .proposta-texto h1{
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         color: #78378b;
         font-weight: bold;
     }
     
     .proposta-texto p{
-        font-size: 18px;
+        font-size: 15px;
         color: #78378b;
         
     }
@@ -592,6 +592,7 @@ body{
     .apresentation h1{
         padding: 0px;
         text-align: center;
+        font-size: 20px;
         margin-bottom: 20px;
     }
     
@@ -610,7 +611,7 @@ body{
     
     
     .text-apresentation p{
-        font-size: 18px;
+        font-size: 15px;
     }
     
     /* Como funciona*/
