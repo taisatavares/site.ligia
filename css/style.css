@@ -497,7 +497,7 @@ body{
     }
     .slider {
         margin: 0 auto;
-        width: 450px;
+        width: 100vw;
         height: 300px;
         overflow: hidden;
         
@@ -511,7 +511,7 @@ body{
 
     .slide{
         display: inline-flex;
-        width: 450px;
+        width: 100vw;
     }
 
     .manual-navigation {

@@ -101,6 +101,7 @@ main{
     background-image: url("/img-brinquedos/foto-14.jpeg");
     background-size: cover;
     
+    
 }
 
 .container-1{
@@ -110,6 +111,8 @@ main{
     justify-content: center;
     background-image: url("/img-brinquedos/foto-14.jpeg");
     background-size: cover;
+    background-position: right center;
+    background-color: none;
     
     }
 .container-2{
