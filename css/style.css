@@ -59,7 +59,7 @@ body{
 
 .slider {
     margin: 0 auto;
-    width: 400px;
+    width: 392px;
     height: 400px;
     overflow: hidden;
     
@@ -83,7 +83,7 @@ body{
 }
 
 .slide img{
-    width: 430px;
+    width: 392px;
     height: 350px;
 }
 
@@ -506,7 +506,7 @@ body{
     }
     .slider {
         margin: 0 auto;
-        width: 430px;
+        
         height: 350px;
         overflow: hidden;
         
