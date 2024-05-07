@@ -523,7 +523,7 @@ body{
         height: 60vh;
         top: 90px;
         right: 0px;
-        background: #FFFCF7;
+        background-color: #FFFCF7;
         
         z-index: 1000;
     }
