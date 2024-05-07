@@ -502,7 +502,7 @@ body{
     font-size: 18px;
 }
 
-@media screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px){
     /* cabeçalho */
     #drawer{
     
