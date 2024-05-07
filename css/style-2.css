@@ -10,6 +10,7 @@
 /* cabeçalho */
 #drawer {
 
+    background-color: #FFFCF7;
     
     .logo {
         margin: 0px;
@@ -47,17 +48,41 @@
     }
 }
 
+/*Botão whatsapp*/
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
 main{
     background-color: #d4b68ade;
+    
 }
 
 .galeria {
+    
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
     justify-content: center;
+    
 }
 
 .galeria-container {
@@ -65,14 +90,15 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 2vw;
+    gap: 5vw;
 }
 
 .galeria-items {
     width: 340px;
     height: 250px;
-    border: 10px solid #fff;
-    box-shadow: 3px 3px 3px #0000007c;
+    margin-bottom: 30px;
+    /*border: 10px solid #fff;
+    box-shadow: 3px 3px 3px #0000007c;*/
 }
 
 .galeria-items img {
@@ -172,9 +198,10 @@ section .container{
     font-size: 18px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     /* cabeçalho */
     #drawer{
+    background-color: #FFFCF7;
     
     margin-bottom: -20px;
     margin-top: -20px;
@@ -195,7 +222,7 @@ section .container{
         height: 60vh;
         top: 90px;
         right: 0px;
-        background: #fff;
+        background-color: #FFFCF7;;
         
         z-index: 1000;
     }
@@ -212,7 +239,7 @@ section .container{
         right: 20px;
         width: 30px;
         height: 30px;
-        background-color: /*#eedcc6*/ #fff;
+        background-color: /*#eedcc6*/ #FFFCF7;
         border: none; 
     }
     #btn-mobile img {
@@ -262,11 +289,17 @@ section .container{
             
             
         }
+    .galeria{
+        padding: 5px;  
+    }    
+          
+
     .galeria-items {
-        width: 125px;
-        height: 110px;
-        border: 10px solid #fff;
-        box-shadow: 3px 3px 3px #0000007c;
+        width: 157px;
+        height: 140px;
+        
+        /*border: 10px solid #fff;
+        box-shadow: 3px 3px 3px #0000007c;*/
     }
 
     .lounges h1 {

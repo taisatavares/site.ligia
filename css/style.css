@@ -14,6 +14,7 @@ body{
 /* cabeçalho */
 #drawer {
 
+    background-color: #FFFCF7;
     
     .logo {
         margin: 0px;
@@ -163,6 +164,27 @@ body{
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fff;
+}
+
+/*Botão whatsapp*/
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
 }
 
 /*Conteúdo proposta*/
@@ -431,6 +453,7 @@ body{
 
 .info-mm{
     display: flex;
+    
     justify-content: space-between;
     padding: 80px;
     background-color: #eedfc896;
@@ -439,26 +462,33 @@ body{
 .info-mm p{
     font-size: 20px;
     color: #78378b;
-    font-weight: bold;
+    
 }
 
 .info-mm .icons {
     display: flex;
     justify-content: space-between;
     color: #78378b;
-    font-weight: bold;
+    
 }
 
 .info-mm .icons i{
     font-size: 20px;
-    
 }
 
 .info-mm .icons a {
     text-decoration: none;
     color: #78378b;
-    font-weight: bold;
+    
 }
+
+/*img pix*/
+
+.img-pix{
+    margin-top: 20px;
+    width: 90px;
+}
+
 
 
 /*Rodapé*/
@@ -472,7 +502,7 @@ body{
     font-size: 18px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     /* cabeçalho */
     #drawer{
     
@@ -493,7 +523,7 @@ body{
         height: 60vh;
         top: 90px;
         right: 0px;
-        background: #fff;
+        background: #FFFCF7;
         
         z-index: 1000;
     }
@@ -540,7 +570,7 @@ body{
     .slider {
         margin: 0 auto;
         
-        height: 350px;
+        /*height: 350px;*/
         overflow: hidden;
         
         
@@ -548,13 +578,15 @@ body{
     
     .sliders {
         width: 400%;
-        height: 350px;
+        /*height: 350px;*/
         display: flex;
         
     }
 
     .slide img {
-        width: 100vw;
+        /*width: 100%;*/
+        margin-top: 25px;
+        
     }
 
     
@@ -765,42 +797,53 @@ body{
 
     .info-mm{
         display: flex;
+
         flex-direction: column;
         justify-content: space-between;
         padding: 50px;
         
 
-    .endereco{
+    .pix {
         margin-bottom: 60px;
+        
     }
 }
 
     .info-mm p{
         font-size: 20px;
         color: #78378b;
-        font-weight: bold;
+        
 }
 
     .info-mm .icons {
         display: flex;
-        flex-direction: column;
-    
+        flex-direction: row;
+        
+        justify-content: left;
+        gap: 30px;
+        margin-bottom: 30px;
+
+        
 }
 
     .info-mm .icons i{
-        font-size: 25px;
+        font-size: 35px;
         margin-bottom: 30px;
-        background-color: #78378b;
-        border-radius: 40%;
-        padding: 12px;
+        padding: 0px;
+        width: 40px;
+        height: 20px;
+        
+        
+        
+        
 }
 
     .info-mm .icons a {
         text-decoration: none;
-        color: #fff;
-        font-weight: bold;
+        color: #78378b;
         margin-bottom: 30px;
         margin-top: 20px;
+        
 }
 
 
