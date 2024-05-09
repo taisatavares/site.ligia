@@ -570,7 +570,7 @@ body{
     .slider {
         margin: 0 auto;
         
-        /*height: 350px;*/
+        /*height: 300px;*/
         overflow: hidden;
         
         
@@ -578,14 +578,16 @@ body{
     
     .sliders {
         width: 400%;
-        /*height: 350px;*/
+        /*height: 300px;*/
         display: flex;
         
     }
 
     .slide img {
+        width: 400px;
         /*width: 100%;*/
         margin-top: 25px;
+        
         
     }
 

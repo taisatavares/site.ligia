@@ -118,13 +118,14 @@ main{
 
 }
 
-section .container{
+.container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-image: url("/img-brinquedos/foto-14.jpeg");
     background-size: cover;
+    width: 100%;
     
     
 }
@@ -135,8 +136,8 @@ section .container{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: url("/img-brinquedos/foto-16.jpeg");
-    background-size: cover;
+    /*background-image: url("/img-brinquedos/foto-16.jpeg");
+    background-size: cover;*/
     
     }
 .container-3{
@@ -145,8 +146,8 @@ section .container{
     align-items: center;
     justify-content: center;
     
-    background-image: url("/img-brinquedos/cozinha800.jpeg");
-    background-size: cover;
+    /*background-image: url("/img-brinquedos/cozinha800.jpeg");
+    background-size: cover;*/
         
     }
 
@@ -279,13 +280,13 @@ section .container{
         background-size: cover;
         
         }*/
-    section .container{
+    .container{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-image: url("/img-brinquedos/foto-14.jpeg");
-        background-size: cover;
+        /*background-image: url("/img-brinquedos/papo400.jpeg");
+        background-size: cover;*/
             
             
         }
