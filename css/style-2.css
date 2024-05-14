@@ -153,6 +153,10 @@ section {
     font-size: 18px;
 }
 
+.opcao-lounge li {
+    text-align: justify;
+}
+
 .monitor {
     font-size: 12px;
 }
@@ -160,6 +164,16 @@ section {
     padding: 30px;
     font-size: 18px;
     text-align: justify;
+    
+    
+}
+
+
+
+.qtd-brinquedos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -312,21 +326,26 @@ section {
         margin: 40px;
         height: 670px;
         text-align: center;
+
         padding: 30px;
         background-color: #e6ded2e1;
         color: #78378b;
         font-size: 15px;
     }
 
-    .informacoes{
-        
-        
+    
+    
+    .opcao-lounge li {
+        text-align: start;
     }
+    
+    
+
 
     .informacoes li{
         padding: 20px;
         font-size: 18px;
-        text-align: justify;
+        text-align: start;
         
     }
     .contato{
