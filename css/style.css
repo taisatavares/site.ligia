@@ -35,7 +35,7 @@ body{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        padding: 60px;
+        padding: 40px;
         
 
         > nav ul {
@@ -53,7 +53,7 @@ body{
             }
         }
         .img-logo {
-            width: 230px;
+            width: 15vw;
         }
     }
 }
@@ -256,7 +256,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 200px;
+    padding: 150px;
     
 }
 
@@ -266,7 +266,7 @@ body{
 }
 
 .photo-ligia img{
-    width: 25vw;
+    width: 30vw;
     margin-top: 55px;
     border-radius: 40px;
 }
@@ -514,7 +514,7 @@ body{
     font-size: 18px;
 }
 
-@media screen and (min-width: 501px) and (max-width: 1400px) {
+@media screen and (min-width: 501px) and (max-width: 1300px) {
     /* cabeçalho */
     #drawer{
     
@@ -532,11 +532,11 @@ body{
             position: absolute;
             width: 60%;
             padding: 20px;
+            
             height: 60vh;
             top: 90px;
             right: 0px;
             background-color: #FFFCF7;
-            
             z-index: 1000;
         }
     
@@ -544,6 +544,7 @@ body{
             display: flex;
             flex-direction: column;
             padding: 20px;
+            font-size: 18px;
             
         }
     
