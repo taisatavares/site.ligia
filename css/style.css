@@ -20,7 +20,10 @@ body{
         margin: 0px;
         display: flex;
         gap: 10px;
+        
     }
+
+    
 
 
     #btn-mobile {
@@ -39,15 +42,18 @@ body{
             list-style: none;
             display: flex;
             flex-direction: row;
-            gap: 60px;
+            gap: 50px;
 
             > li a {
                 display: flex;
                 text-decoration: none;
                 font-weight: 600;
-                font-size: 22px;
+                font-size: 20px;
                 color: /*#B695C0*/ #78378b;
             }
+        }
+        .img-logo {
+            width: 230px;
         }
     }
 }
@@ -193,15 +199,17 @@ body{
 .flex{
     display: flex;
     flex-direction: row;
+    
     justify-content: space-between;
-    padding: 150px;
+    padding: 120px;
     background-color: #eedfc896;
     
 }
 
 .proposta-texto {
-    width: 600px;
+    width: 40vw;
     text-align: justify;
+    
 }
 
 .proposta-texto h1{
@@ -236,8 +244,9 @@ body{
 
 
 .img img {
-    width: 600px;
+    width: 35vw;
     border-radius: 15px;
+    
 }
 
 /*Apresentação*/
@@ -252,20 +261,20 @@ body{
 }
 
 .apresentation h1{
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 }
 
 .photo-ligia img{
-    width: 450px;
+    width: 25vw;
     margin-top: 55px;
     border-radius: 40px;
 }
 
 .text-apresentation {
-    padding: 20px;
+    
     text-align: justify;
-    width: 700px;
+    width: 40vw;
     
 }
 
@@ -295,17 +304,17 @@ body{
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    gap: 50px;
+    padding: 30px;
+    gap: 30px;
     background-color: #eedfc896;
 }
 
 
 
 .processo{
-    width: 350px;
-    height: 250px;
-    padding: 20px;
+    width: 20vw;
+    height: 230px;
+    padding: 10px;
     border: 2px solid #fff;
     background-color: #faf4f4c4;
 }
@@ -367,6 +376,7 @@ body{
     position: relative;
     background-color: #fff;
     overflow: hidden;
+    margin: 30px auto 0 auto;
     
 }
 
@@ -668,7 +678,7 @@ body{
     
     
     .processo{
-        width: 130px;
+        width: 20vw;
         height: 170px;
     }
     
@@ -681,7 +691,7 @@ body{
     }
     
     .processo p{
-        font-size: 10px;
+        font-size: 15px;
         text-align: left;
     }
 
@@ -701,29 +711,35 @@ body{
         position: relative;
         background-color: #fff;
         overflow: hidden;
-        justify-content: center;
-        align-items: center;
+        margin: 30px auto 0 auto;
     }
 
     .depoimentos p.depoi-txt{
         font-weight: 300;
-        margin-top: 0px;
-        margin-bottom: 80px;
-        margin-left: -20px;
+        
+        margin: 20px auto 50px auto;
         width: 250px;
         height: 100px;
+    }
+
+    .slide-1 .person{
+        margin: 70px auto 0px 70px;
     }
     .slide-1 .person img{
         width: 80px;
         height: 80px;
-        margin-left: -30px;
+        
+    }
+
+    .nome-person{
+        
     }
 
     .depoimentos i {
         font-size: 50px;
         color: #ccc;
-        margin-left: -30px;
         margin-top: -50px;
+        
     }
     .nav-btn{
         display: none;
@@ -753,7 +769,7 @@ body{
     }
 
     .insta img {
-        width: 100vw;
+        width: 80vw;
         
     }
 }
