@@ -524,7 +524,7 @@ body{
         
         .logo .img-logo{
             width: 120px;
-            margin-left: -40px;
+            margin-left: -20px;
             
         }
         > header #menu {
@@ -785,7 +785,11 @@ body{
     
     .logo .img-logo{
         width: 120px;
-        margin-left: -40px;
+        
+        margin-left: -20px;
+        
+    }
+    .img-logo{
         
     }
     > header #menu {

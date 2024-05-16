@@ -121,11 +121,11 @@ main{
 
 }
 
-section {
+/*section {
     background-image: url('/img-brinquedos/foto-14.jpeg');
     
     
-}
+}*/
 
 .container{
     display: flex;
@@ -149,7 +149,7 @@ section {
     height: 600px;
     text-align: center;
     padding: 40px;
-    background-color: #e6ded2e1;
+    background-color: /*#e6ded2e1*/ #dbb2e083;
     color: #78378b;
     /*background-image: url("/img-brinquedos/foto-14.jpeg");
     background-size: cover;*/
@@ -163,6 +163,10 @@ section {
 .monitor {
     font-size: 12px;
 }
+.info-adc h1{
+    background-color: #d4b68ade;
+}
+
 .informacoes li{
     padding: 30px;
     font-size: 18px;
@@ -217,8 +221,8 @@ section {
     
         
     .logo .img-logo{
-        width: 110px;
-        margin-left: -40px;
+        width: 120px;
+        margin-left: -20px;
         
     }
     > header #menu {
@@ -288,18 +292,19 @@ section {
         }*/
 
 
-    section {
+    /*section {
         background-image: url('/img-brinquedos/foto-14.jpeg');
         
         background-position: left center;
         
-    }   
+    }*/   
 
     .container{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        background-color: #eedfc896;
         /*background-image: url("/img-brinquedos/papo400.jpeg");
         background-size: cover;*/
             
