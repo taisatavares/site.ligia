@@ -113,7 +113,7 @@ main{
 /*Lounges*/
 
 .lounges .bff h1 {
-    background-image: /*#b280c2de*/  linear-gradient(to right, #92C4B8, #b280c2de, #CEE4DF);;
+    background-image: /*#b280c2de*/  linear-gradient(to right, /*#92C4B8, #b280c2de, #CEE4DF*/#A9CDFF, #D2BDDC, #F8C9D3);
     padding: 30px;
     text-align: center;
     color: #fff;
@@ -270,8 +270,9 @@ div .img-1{
     width: 280px;
     font-size: 20px;
     color: #fff;
+    font-weight: 500;
     height: 180px;
-    background-color: #67c77fbe;
+    background-color: #A9CDFF;
     padding: 30px;
     margin-bottom: 50px;
     border-radius: 30px;
@@ -283,8 +284,9 @@ div .img-1{
     width: 250px;
     height: 130px;
     font-size: 20px;
-    background-color: #9a5cadd0;
+    background-color: #D2BDDC;
     color: #fff;
+    font-weight: 500;
     margin-bottom: 50px;
     padding: 20px;
     border-radius: 30px;
@@ -294,8 +296,9 @@ div .img-1{
     width: 250px;
     height: 100px;
     font-size: 20px;
-    background-color: #67c77fbe;
+    background-color: #A9CDFF;
     color: #fff;
+    font-weight: 500;
     padding: 20px;
     margin-bottom: 50px;
     border-radius: 30px;
@@ -307,7 +310,8 @@ div .img-1{
     height: 70px;
     font-size: 20px;
     color: #fff;
-    background-color: #9a5cadd0;
+    font-weight: 500;
+    background-color: #D2BDDC;
     padding: 20px;
     margin-bottom: 50px;
     border-radius: 30px;
@@ -318,8 +322,9 @@ div .img-1{
     width: 250px;
     height: 130px;
     font-size: 20px;
-    background-color: #945f1194;
+    background-color: #F8C9D3;
     color: #fff;
+    font-weight: 500;
     padding: 20px;
     border-radius: 30px;
     text-align: center;
@@ -330,7 +335,8 @@ div .img-1{
     height: 70px;
     font-size: 20px;
     color: #fff;
-    background-color: #945f1194;
+    font-weight: 500;
+    background-color: #F8C9D3;
     padding: 20px;
     border-radius: 30px;
     text-align: center;
@@ -382,7 +388,7 @@ div .img-1{
 
 .contato a {
     font-size: 30px;
-    color: #78378b;
+    color: /*#78378b*/ #af7fc5;
 }
 /*Rodapé*/
 
@@ -390,7 +396,7 @@ div .img-1{
     padding: 15px;
     align-items: center;
     text-align: center;
-    background-color: #78378b;
+    background-color: #D4BFDE ;
     color: #fff;
     font-size: 18px;
 }
@@ -531,13 +537,13 @@ div .img-1{
 }
 
     .opcao-lounge-1{
-        
+        width: 500px;
         margin: 40px;
         height: 830px;
         text-align: center;
         padding: 40px;
         background-color: /*#e6ded2e1*/ #fff;
-        color: #78378b;
+        color: /*#78378b*/ #af7fc5;
         font-size: 18px;
     }
     
@@ -625,7 +631,7 @@ div .img-1{
         flex-direction: column;
         
         width: 100vw;
-        height: 1200px;
+        height: 1400px;
         
     }
     
@@ -653,8 +659,9 @@ div .img-1{
         width: 110px;
         font-size: 10px;
         color: #fff;
+        font-weight: 500;
         height: 120px;
-        background-color: #67c77fbe;
+        background-color: /*#67c77fbe*/ #A9CDFF;
         padding: 15px;
         border-radius: 20px;
         text-align: center;
@@ -665,8 +672,9 @@ div .img-1{
         width: 100px;
         height: 120px;
         font-size: 10px;
-        background-color: #9a5cadd0;
+        background-color: /*#9a5cadd0*/ #D2BDDC;
         color: #fff;
+        font-weight: 500;
         padding: 20px;
         border-radius: 20px;
         text-align: center;
@@ -675,8 +683,9 @@ div .img-1{
         width: 140px;
         height: 90px;
         font-size: 12px;
-        background-color: #67c77fbe;
+        background-color: /*#67c77fbe*/ #A9CDFF;
         color: #fff;
+        font-weight: 500;
         padding: 20px;
         border-radius: 20px;
         text-align: center;
@@ -687,7 +696,8 @@ div .img-1{
         height: 90px;
         font-size: 10px;
         color: #fff;
-        background-color: #9a5cadd0;
+        font-weight: 500;
+        background-color: /*#9a5cadd0*/ #D2BDDC;
         padding: 30px;
         
         border-radius: 20px;
@@ -698,8 +708,9 @@ div .img-1{
         width: 100px;
         height: 120px;
         font-size: 10px;
-        background-color: #945f1194;
+        background-color: /*#945f1194*/ #F8C9D3;
         color: #fff;
+        font-weight: 500;
         padding: 20px;
         border-radius: 20px;
         text-align: center;
@@ -710,7 +721,8 @@ div .img-1{
         height: 90px;
         font-size: 10px;
         color: #fff;
-        background-color: #945f1194;
+        font-weight: 500;
+        background-color: /*#945f1194*/ #F8C9D3;
         padding: 20px;
         border-radius: 20px;
         text-align: center;
@@ -719,17 +731,21 @@ div .img-1{
     
     .info-adc h1{
         background-color: #fff;
-        color: #78378b;
+        color: /*#78378b*/ #af7fc5;
         padding: 20px;
         font-size: 30px;
 
     }
-
+    .informacoes {
+        height: 830px;
+    }
 
     .informacoes li{
         padding: 20px;
         font-size: 18px;
         text-align: start;
+        color: #af7fc5;
+        
         
     }
     .contato{
@@ -739,7 +755,7 @@ div .img-1{
     
     .contato a {
         font-size: 30px;
-        color: #78378b;
+        color: /*#78378b*/ #af7fc5;
     }
     .rodape{
         padding: 13px;

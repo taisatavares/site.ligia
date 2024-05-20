@@ -49,7 +49,7 @@ body{
                 text-decoration: none;
                 font-weight: 600;
                 font-size: 20px;
-                color: /*#B695C0*/ #78378b;
+                color: /*#B695C0*/ /*#78378b*/ #c8a2da;
             }
         }
         .img-logo {
@@ -199,10 +199,9 @@ body{
 .flex{
     display: flex;
     flex-direction: row;
-    
     justify-content: space-between;
     padding: 120px;
-    background-color: #eedfc896;
+    background-color: /*#eedfc896*/ #fff;
     
 }
 
@@ -215,13 +214,13 @@ body{
 .proposta-texto h1{
     text-align: center;
     font-size: 30px;
-    color: #78378b;
+    color: /*#78378b*/ #c8a2da;
     font-weight: bold;
 }
 
 .proposta-texto p{
     font-size: 20px;
-    color: #78378b;
+    color: /*#78378b*/ #c8a2da;
     
 }
 
@@ -235,8 +234,9 @@ body{
 #btn-text{
     padding: 20px;
     border-radius: 50px;
-    background-color: #78378b;
+    background-color: /*#78378b*/ #af85c2;
     color: #fff;
+    font-weight: 500;
     font-size: 20px;
     border: none;
     text-decoration: none;
@@ -252,7 +252,7 @@ body{
 /*Apresentação*/
 
 .apresentation {
-    background-color: #B695C0;
+    background-color: /*#B695C0*/ #D4BFDE;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -294,7 +294,7 @@ body{
     padding: 25px;
     font-size: 25px;
     text-align: center;
-    color: #78378b;
+    color: /*#78378b*/ #af7fc5;
     font-weight: bold;
 }
 
@@ -315,23 +315,23 @@ body{
     width: 20vw;
     height: 230px;
     padding: 10px;
-    border: 2px solid #fff;
-    background-color: #faf4f4c4;
+    /*border: 2px solid #fff;*/
+    background-color: /*#faf4f4c4*/ #fff;
 }
 
 .processo i{
     font-size: 40px;
-    color: #78378b ;
+    color: /*#78378b*/ #af7fc5;
 }
 
 .processo h3 {
     font-size: 25px;
-    color: #78378b;
+    color: /*#78378b*/ #af7fc5;
 }
 
 .processo p{
     font-size: 18px;
-    color: #78378b;
+    color: /*#78378b*/ #af7fc5;
     
 }
 
@@ -346,7 +346,7 @@ body{
     font-size: 20px;
     border-radius: 40px;
     border: none;
-    background-color: #78378b;
+    background-color: /*#78378b*/ #af7fc5;
     color: #fff;
 }
 
@@ -361,7 +361,7 @@ body{
     padding: 25px;
     font-size: 25px;
     text-align: center;
-    color: #78378b;
+    color: /*#78378b*/ #af7fc5;
     font-weight: bold;
     background-color: #fff;
 }
@@ -444,7 +444,7 @@ body{
     text-align: center;
     color: #fff;
     font-weight: bold;
-    background-color: #B695C0;
+    background-color: /*#B695C0*/ #D4BFDE;
 }
 
 .insta{
@@ -468,7 +468,7 @@ body{
     
     justify-content: space-between;
     padding: 80px;
-    background-color: #eedfc896;
+    background-color: /*#eedfc896*/ #f9c9d2c9;
 }
 
 .info-mm p{
@@ -509,7 +509,7 @@ body{
     padding: 15px;
     align-items: center;
     text-align: center;
-    background-color: #78378b;
+    background-color: /*#78378b*/ #D4BFDE;
     color: #fff;
     font-size: 18px;
 }
@@ -879,8 +879,9 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 90px;
+        padding: 100px;
         align-items: center;
+        margin: 20px;
         
         
     }
@@ -893,13 +894,13 @@ body{
     .proposta-texto h1{
         text-align: center;
         font-size: 20px;
-        color: #78378b;
+        color: /*#78378b*/ #af7fc5;
         font-weight: bold;
     }
     
     .proposta-texto p{
         font-size: 15px;
-        color: #78378b;
+        color: /*#78378b*/ #af7fc5;
         
     }
     
