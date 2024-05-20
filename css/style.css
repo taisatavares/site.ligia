@@ -49,7 +49,7 @@ body{
                 text-decoration: none;
                 font-weight: 600;
                 font-size: 20px;
-                color: /*#B695C0*/ /*#78378b*/ #c8a2da;
+                color: /*#B695C0*/ /*#78378b*/ #c283df;
             }
         }
         .img-logo {
@@ -842,7 +842,7 @@ body{
     
     /*Conteudo fotos*/
     .photos {
-        background-color: /*#E2BE99*/ #eedfc896;
+        background-color: /*#E2BE99*/ /*#eedfc896*/ #fff;
         width: 100%;
         
     }
