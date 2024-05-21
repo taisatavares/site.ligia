@@ -113,7 +113,7 @@ main{
 /*Lounges*/
 
 .lounges .bff h1 {
-    background-image: /*#b280c2de*/  linear-gradient(to right, /*#92C4B8, #b280c2de, #CEE4DF*/#A9CDFF, #D2BDDC, #F8C9D3);
+    background-image: /*#b280c2de*/  linear-gradient(to right, /*#92C4B8, #b280c2de, #CEE4DF*/#c0e7d8cb, #D2BDDC, #F8C9D3);
     padding: 30px;
     text-align: center;
     color: #fff;
@@ -146,7 +146,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #eedfc896;
+    background-color: #e6ded267;
     
     
 }
@@ -199,7 +199,7 @@ main{
     font-size: 18px;
 }
 .pool h1{
-    background-image: /*#b280c2de*/  linear-gradient(to right, #ecd991e0, #b88a45, #ecd991e0);
+    background-image: /*#b280c2de*/  linear-gradient(to right, #c1e2dad7, #94d1ba, #c1e2dad7);
     padding: 30px;
     text-align: center;
     color: #fff;
@@ -209,13 +209,13 @@ main{
 div .img-1{
     width: 32vw;
     margin: 0px auto 10px auto;
-    border: solid 4px #8d5809f3;
+    border: solid 2px #94d1ba;
     margin-bottom: 20px;
 }
 .img-2{
     width: 32vw;
     
-    border: solid 4px #8d5809f3;
+    border: solid 2px #94d1ba;
 }
 
 .completa-1{
@@ -272,7 +272,7 @@ div .img-1{
     color: #fff;
     font-weight: 500;
     height: 180px;
-    background-color: #A9CDFF;
+    background-color: #c0e7d8cb;
     padding: 30px;
     margin-bottom: 50px;
     border-radius: 30px;
@@ -296,7 +296,7 @@ div .img-1{
     width: 250px;
     height: 100px;
     font-size: 20px;
-    background-color: #A9CDFF;
+    background-color: #c0e7d8cb;
     color: #fff;
     font-weight: 500;
     padding: 20px;
@@ -383,7 +383,7 @@ div .img-1{
     align-items: center;
     justify-content: center;
     gap: 60px;
-    background-color: #eedfc896;
+    background-color: #e6ded267;
 }
 
 .contato a {
@@ -496,7 +496,7 @@ div .img-1{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: #eedfc896;
+        
         /*background-image: url("/img-brinquedos/papo400.jpeg");
         background-size: cover;*/
             
@@ -520,7 +520,7 @@ div .img-1{
 .lounges .bff h1 {
     
     padding: 20px;
-    font-size: 30px;
+    font-size: 22px;
 
 }
 
@@ -539,12 +539,12 @@ div .img-1{
     .opcao-lounge-1{
         width: 500px;
         margin: 40px;
-        height: 830px;
+        height: 600px;
         text-align: center;
         padding: 40px;
         background-color: /*#e6ded2e1*/ #fff;
         color: /*#78378b*/ #af7fc5;
-        font-size: 18px;
+        font-size: 13px;
     }
     
     .opcao-lounge-2{
@@ -582,7 +582,7 @@ div .img-1{
     }
 
     .pool h1{
-        background-image: /*#b280c2de*/  linear-gradient(to right, #dfc572, #b88a45, #dfc572);
+        
         padding: 20px;
         font-size: 30px;
     }
@@ -591,14 +591,14 @@ div .img-1{
         width: 80vw;
         display: flex;
         margin: 30px auto 0px auto;
-        border: solid 4px #8d5809f3;
+        
         
     }
     .img-2{
         width: 85vw;
         display: flex;
         margin: 30px auto 0px auto;
-        border: solid 4px #8d5809f3;
+        
     }
     
     .completa-1{
@@ -631,7 +631,7 @@ div .img-1{
         flex-direction: column;
         
         width: 100vw;
-        height: 1400px;
+        height: 1300px;
         
     }
     
@@ -661,7 +661,7 @@ div .img-1{
         color: #fff;
         font-weight: 500;
         height: 120px;
-        background-color: /*#67c77fbe*/ #A9CDFF;
+        
         padding: 15px;
         border-radius: 20px;
         text-align: center;
@@ -683,7 +683,7 @@ div .img-1{
         width: 140px;
         height: 90px;
         font-size: 12px;
-        background-color: /*#67c77fbe*/ #A9CDFF;
+        
         color: #fff;
         font-weight: 500;
         padding: 20px;
@@ -737,12 +737,12 @@ div .img-1{
 
     }
     .informacoes {
-        height: 830px;
+        height: 800px;
     }
 
     .informacoes li{
         padding: 20px;
-        font-size: 18px;
+        font-size: 13px;
         text-align: start;
         color: #af7fc5;
         
@@ -750,7 +750,7 @@ div .img-1{
     }
     .contato{
         padding: 20px;
-        background-color: #e6ded267;
+        
     }
     
     .contato a {

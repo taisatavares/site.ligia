@@ -294,7 +294,7 @@ body{
     padding: 25px;
     font-size: 25px;
     text-align: center;
-    color: /*#78378b*/ #af7fc5;
+    color: /*#78378b #af7fc5*/ #8DAAA1;
     font-weight: bold;
 }
 
@@ -306,7 +306,7 @@ body{
     align-items: center;
     padding: 30px;
     gap: 30px;
-    background-color: #eedfc896;
+    background-color: /*#eedfc896 #8DAAA1*/ #c0e7d8cb;
 }
 
 
@@ -321,24 +321,25 @@ body{
 
 .processo i{
     font-size: 40px;
-    color: /*#78378b*/ #af7fc5;
+    color: /*#78378b #af7fc5*/ #8DAAA1;
 }
 
 .processo h3 {
     font-size: 25px;
-    color: /*#78378b*/ #af7fc5;
+    color: /*#78378b #af7fc5*/ #8DAAA1;
 }
 
 .processo p{
     font-size: 18px;
-    color: /*#78378b*/ #af7fc5;
+    color: /*#78378b #af7fc5*/ #8DAAA1;
     
 }
 
 .btn-3{
     text-align: center;
     padding: 40px;
-    background-color: #eedfc896;
+    background-color: /*#eedfc896*/ #c0e7d8cb;
+    margin-top: -1px;
 }
 
 .sm {
@@ -346,13 +347,13 @@ body{
     font-size: 20px;
     border-radius: 40px;
     border: none;
-    background-color: /*#78378b*/ #af7fc5;
+    background-color: /*#78378b #af7fc5*/ #8DAAA1;
     color: #fff;
 }
 
 /*Feedbacks*/
 .feedbacks{
-    background-color: #eedfc896;
+    background-color: /*#eedfc896 #F9D5E1*/ #fff;
     height: 650px;
 }
 
@@ -361,9 +362,9 @@ body{
     padding: 25px;
     font-size: 25px;
     text-align: center;
-    color: /*#78378b*/ #af7fc5;
+    color: /*#78378b #af7fc5*/ #fff;
     font-weight: bold;
-    background-color: #fff;
+    background-color: #D4BFDE;
 }
 
 .depoimentos {
@@ -457,7 +458,7 @@ body{
 .click {
     padding: 20px;
     text-align: center;
-    color: #78378b;
+    color: #c8a2da;
     font-weight: bold;
 }
 
@@ -473,14 +474,14 @@ body{
 
 .info-mm p{
     font-size: 20px;
-    color: #78378b;
+    color: /*#78378b*/ #c8a2da;
     
 }
 
 .info-mm .icons {
     display: flex;
     justify-content: space-between;
-    color: #78378b;
+    color: /*#78378b*/ #c8a2da;
     
 }
 
@@ -490,7 +491,7 @@ body{
 
 .info-mm .icons a {
     text-decoration: none;
-    color: #78378b;
+    color: /*#78378b*/ #c8a2da;
     
 }
 
@@ -1061,7 +1062,7 @@ body{
         padding: 20px;
         font-size: 18px;
         text-align: center;
-        color: #78378b;
+        color: /*#78378b*/ #c08fd6;
         font-weight: bold;
     }
 
@@ -1083,7 +1084,7 @@ body{
 
     .info-mm p{
         font-size: 20px;
-        color: #78378b;
+        color: /*#78378b*/ #ba75da;
         
 }
 
@@ -1112,7 +1113,7 @@ body{
 
     .info-mm .icons a {
         text-decoration: none;
-        color: #78378b;
+        color: /*#78378b*/ #ba75da;
         margin-bottom: 30px;
         margin-top: 20px;
         
