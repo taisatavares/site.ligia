@@ -73,7 +73,7 @@
 }
 
 main{
-    background-color: #d4b68ade;
+    background-color: /*#d4b68ade*/ #e6ded267;
     
 }
 
@@ -206,6 +206,14 @@ main{
     font-size: 40px;
 }
 
+.soft h1{
+    background-image: /*#b280c2de*/  linear-gradient(to right, #e9c7e0d7, #F8C9D3, #e9c7e0d7);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
 div .img-1{
     width: 32vw;
     margin: 0px auto 10px auto;
@@ -216,6 +224,19 @@ div .img-1{
     width: 32vw;
     
     border: solid 2px #94d1ba;
+}
+
+div .img-3{
+    width: 32vw;
+    margin: 0px auto 10px auto;
+    border: solid 2px #F8C9D3;
+    margin-bottom: 20px;
+}
+
+.img-4{
+    width: 32vw;
+    
+    border: solid 2px #F8C9D3;
 }
 
 .completa-1{
@@ -242,7 +263,41 @@ div .img-1{
     
 }
 
+.completa-3{
+    margin: 20px auto 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    height: 700px;
+    gap: 5%;
+    
+    
+}
+
+.completa-4{
+    margin: 0px auto 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    gap: 5%;
+    
+    
+}
+
 .white-pool{
+    margin: 20px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    
+    width: 1100px;
+    height: 1300px;
+    
+}
+
+.soft-pool{
     margin: 20px auto 10px auto;
     display: flex;
     flex-direction: column;
@@ -401,7 +456,308 @@ div .img-1{
     font-size: 18px;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (min-width: 501px) and (max-width: 1300px){
+    /* cabeçalho */
+    #drawer{
+    
+        margin-bottom: -20px;
+        margin-top: -20px;
+        padding: 0px;
+        
+        .logo .img-logo{
+            width: 120px;
+            margin-left: -20px;
+            
+        }
+        > header #menu {
+            display: none;
+            position: absolute;
+            width: 60%;
+            padding: 20px;
+            
+            height: 60vh;
+            top: 90px;
+            right: 0px;
+            background-color: #FFFCF7;
+            z-index: 1000;
+        }
+    
+        > header #menu li {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            font-size: 18px;
+            
+        }
+    
+        header #menu li a {
+            font-size: 15px;
+        }
+    
+        #btn-mobile{
+            display: block;
+            position: absolute;
+            right: 30px;
+            width: 30px;
+            height: 30px;
+            background-color: /*#eedcc6*/ #FFFCF7;
+            border: none; 
+        }
+        #btn-mobile img {
+            width: 30px;
+        
+        }
+    
+    
+        #nav.active #menu {
+            display: block;
+            flex-direction: column;
+            
+        }
+    }
+
+    /*Lounges*/
+
+    .container{
+        margin: 0px auto 10px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #e6ded267;
+        
+        
+    }
+
+.lounges .bff h1 {
+    
+    padding: 20px;
+    font-size: 22px;
+
+}
+
+
+
+    .opcao-lounge-1{
+        width: 500px;
+        margin: 40px;
+        height: 600px;
+        text-align: center;
+        padding: 40px;
+        background-color: /*#e6ded2e1*/ #fff;
+        color: /*#78378b*/ #af7fc5;
+        font-size: 13px;
+    }
+
+    .white-pool{
+        margin: 20px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        
+        width: 100vw;
+        height: 1200px;
+        
+    }
+
+    .soft-baby{
+        margin: 20px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        
+        width: 100vw;
+        height: 1100px;
+        
+    }
+
+    .completa-1{
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+        width: 600px;
+        
+        
+    }
+
+    .completa-2{
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+        width: 600px;
+        
+        
+    }
+
+    .completa-3{
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+        width: 600px;
+        
+        
+    }
+
+    .completa-4{
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+        width: 600px;
+    
+    }
+    
+
+    
+
+    .div-info-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 0px auto;
+        width: 280px;
+        align-items: center;
+        height: 500px;
+        
+        
+    }
+    
+    .div-info-2{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 0px auto;
+        width: 280px;
+        align-items: center;
+        height: 500px;
+    }
+
+    .div-info-3{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 0px auto;
+        width: 280px;
+        align-items: center;
+        height: 500px;
+    }
+
+    .div-info-4{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 0px auto;
+        width: 280px;
+        align-items: center;
+        height: 500px;
+    }
+    
+    .div-1 {
+        width: 14vw;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 500;
+        height: 14vh;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        
+    }
+    
+    .div-2 {
+        width: 14vw;
+        height: 14vh;
+        font-size: 10px;
+        background-color: /*#9a5cadd0*/ #D2BDDC;
+        color: #fff;
+        font-weight: 500;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .div-3 {
+        width: 14vw;
+        height: 14vh;
+        font-size: 12px;
+        
+        color: #fff;
+        font-weight: 500;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .div-4 {
+        width: 14vw;
+        height: 14vh;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 500;
+        background-color: /*#9a5cadd0*/ #D2BDDC;
+        padding: 30px;
+        
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .div-5 {
+        width: 14vw;
+        height: 14vh;
+        font-size: 10px;
+        background-color: /*#945f1194*/ #F8C9D3;
+        color: #fff;
+        font-weight: 500;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .div-6 {
+        width: 14vw;
+        height: 14vh;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 500;
+        background-color: /*#945f1194*/ #F8C9D3;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    
+    .info-adc h1{
+        background-color: #fff;
+        color: /*#78378b*/ #af7fc5;
+        padding: 20px;
+        font-size: 30px;
+
+    }
+    .informacoes {
+        height: 800px;
+    }
+
+    .informacoes li{
+        padding: 20px;
+        font-size: 13px;
+        text-align: start;
+        color: #af7fc5;
+        
+        
+    }
+    .contato{
+        padding: 20px;
+        
+    }
+    
+    .contato a {
+        font-size: 30px;
+        color: /*#78378b*/ #af7fc5;
+    }
+    .rodape{
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px){
     /* cabeçalho */
     #drawer{
     background-color: #FFFCF7;
@@ -586,6 +942,11 @@ div .img-1{
         padding: 20px;
         font-size: 30px;
     }
+    .soft h1{
+        
+        padding: 20px;
+        font-size: 30px;
+    }
     
     div .img-1{
         width: 80vw;
@@ -600,9 +961,24 @@ div .img-1{
         margin: 30px auto 0px auto;
         
     }
+
+    div .img-3{
+        width: 80vw;
+        display: flex;
+        margin: 30px auto 0px auto;
+        
+        
+    }
+
+    .img-4{
+        width: 85vw;
+        display: flex;
+        margin: 30px auto 0px auto;
+        
+    }
     
     .completa-1{
-        margin: 0px auto 30px auto;
+        margin: 0px auto 0px auto;
         display: flex;
         flex-direction: column;
         justify-content: none;
@@ -624,6 +1000,30 @@ div .img-1{
         
         
     }
+
+    .completa-3{
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        width: 100vw;
+        height: 600px;
+        gap: 0px;
+        
+        
+    }
+
+    .completa-4{
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        width: 100vw;
+        height: 500px;
+        gap: 0px;
+        
+        
+    }
     
     .white-pool{
         margin: 20px auto 10px auto;
@@ -631,7 +1031,17 @@ div .img-1{
         flex-direction: column;
         
         width: 100vw;
-        height: 1300px;
+        height: 1200px;
+        
+    }
+
+    .soft-baby{
+        margin: 20px auto 10px auto;
+        display: flex;
+        flex-direction: column;
+        
+        width: 100vw;
+        height: 1100px;
         
     }
     
@@ -641,7 +1051,7 @@ div .img-1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 30px auto 10px auto;
+        margin: 0px auto 10px auto;
         width: 320px;
         gap: 5px;
     }
@@ -651,6 +1061,24 @@ div .img-1{
         flex-direction: row;
         justify-content: space-between;
         margin: 0px auto 10px auto;
+        width: 320px;
+        gap: 5px;
+    }
+
+    .div-info-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px auto 0px auto;
+        width: 320px;
+        gap: 5px;
+    }
+
+    .div-info-4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px auto 10px auto;
         width: 320px;
         gap: 5px;
     }
