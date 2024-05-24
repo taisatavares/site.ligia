@@ -157,7 +157,7 @@ main{
 .opcao-lounge-1{
     width: 500px;
     margin: 40px;
-    height: 630px;
+    height: 650px;
     text-align: center;
     padding: 40px;
     background-color: /*#e6ded2e1*/ #fff;
@@ -387,7 +387,7 @@ div .img-3{
 
 .div-6 {
     width: 250px;
-    height: 70px;
+    height: 85px;
     font-size: 20px;
     color: #fff;
     font-weight: 500;
@@ -420,6 +420,23 @@ div .img-3{
     text-align: justify;
     
     
+}
+
+#btn-1 {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn-text{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: /*#78378b*/ #af85c2;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
 }
 
 
@@ -1041,8 +1058,25 @@ div .img-3{
         flex-direction: column;
         
         width: 100vw;
-        height: 1100px;
+        height: 1200px;
         
+    }
+
+    #btn-1 {
+        margin: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #btn-text{
+        padding: 20px;
+        border-radius: 50px;
+        background-color: /*#78378b*/ #af85c2;
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+        border: none;
+        text-decoration: none;
     }
     
     
@@ -1114,7 +1148,7 @@ div .img-3{
         
         color: #fff;
         font-weight: 500;
-        padding: 20px;
+        padding: 15px;
         border-radius: 20px;
         text-align: center;
     }
@@ -1151,7 +1185,7 @@ div .img-3{
         color: #fff;
         font-weight: 500;
         background-color: /*#945f1194*/ #F8C9D3;
-        padding: 20px;
+        padding: 18px;
         border-radius: 20px;
         text-align: center;
     }
